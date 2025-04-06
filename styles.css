@@ -9,6 +9,16 @@ body, html {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+.name-box {
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  width: 500px;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
 .background-container {
   background-image: url('image.jpg'); 
   background-size: cover;
