@@ -9,21 +9,11 @@ body, html {
   font-family: 'Helvetica Neue', sans-serif;
 }
 
-.name-box {
-  background-color: #000;
-  color: #fff;
-  padding: 1.5rem 2rem;
-  width: 500px;
-  margin-bottom: 2rem;
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
 .background-container {
-  background-image: url('image.jpg'); 
+  background-image: url('image.jpg');
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -32,13 +22,61 @@ body, html {
   gap: 2rem;
 }
 
+.section {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 1s ease-in-out;
+}
+
+.content {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 80%;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .content h1 {
+    font-size: 1.8rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}
+
+
+.name-box {
+  background-color: #000;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  width: 500px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
 .overlay-box {
-  background-color: #000; /* Fully black */
-  color: #fff; /* White text */
+  background-color: #000;
+  color: #fff;
   padding: 2rem;
   width: 500px;
-  height: 166px; 
-  border-radius: 0; /* Optional: remove rounded corners if you want it sharp */
+  height: 166px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,4 +105,29 @@ a:hover {
 
 .download-link:hover {
   background: #ddd;
+}
+
+/* 🔄 Responsive layout for tablets and phones */
+@media (max-width: 768px) {
+  .background-container {
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .name-box,
+  .overlay-box {
+    width: 100%;
+    max-width: 90%;
+    height: auto;
+    padding: 1.2rem;
+    text-align: center;
+  }
+
+  .name-box {
+    font-size: 1.5rem;
+  }
+
+  .download-link {
+    margin: 0 auto;
+  }
 }
