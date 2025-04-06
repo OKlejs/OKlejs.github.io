@@ -10,7 +10,7 @@ body, html {
 }
 
 .background-container {
-  background-image: url('image.jpg'); /* Replace with your actual image */
+  background-image: url('image.jpg'); 
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -26,8 +26,8 @@ body, html {
   background-color: #000; /* Fully black */
   color: #fff; /* White text */
   padding: 2rem;
-  width: 250px;
-  height: 250px; /* Make it square */
+  width: 500px;
+  height: 166px; 
   border-radius: 0; /* Optional: remove rounded corners if you want it sharp */
   display: flex;
   flex-direction: column;
