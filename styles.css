@@ -10,35 +10,33 @@ body, html {
 }
 
 .background-container {
-  background-image: url('your-image.jpg'); /* Replace with your actual image */
+  background-image: url('Hytte.jpg'); /* Replace with your actual image */
   background-size: cover;
   background-position: center;
   height: 100vh;
-  position: relative;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   padding: 2rem;
+  gap: 2rem;
 }
 
 .overlay-box {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: #000; /* Fully black */
+  color: #fff; /* White text */
   padding: 2rem;
-  width: 300px;
-  border-radius: 10px;
-}
-
-.left-box {
-  align-self: flex-start;
-}
-
-.right-box {
-  align-self: flex-end;
+  width: 250px;
+  height: 250px; /* Make it square */
+  border-radius: 0; /* Optional: remove rounded corners if you want it sharp */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
 }
 
 a {
-  color: #00bcd4;
+  color: #fff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -48,15 +46,15 @@ a:hover {
 }
 
 .download-link {
-  display: inline-block;
-  margin-top: 1rem;
-  background: #00bcd4;
-  color: #fff;
+  background: #fff;
+  color: #000;
   padding: 0.6rem 1rem;
   border-radius: 5px;
-  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  width: fit-content;
 }
 
 .download-link:hover {
-  background: #0097a7;
+  background: #ddd;
 }
