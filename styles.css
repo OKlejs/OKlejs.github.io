@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.background-container {
+  background-image: url('your-image.jpg'); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.overlay-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2rem;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.left-box {
+  align-self: flex-start;
+}
+
+.right-box {
+  align-self: flex-end;
+}
+
+a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #00bcd4;
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.download-link:hover {
+  background: #0097a7;
+}
