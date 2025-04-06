@@ -10,7 +10,7 @@ body, html {
 }
 
 .background-container {
-  background-image: url('Hytte.jpg'); /* Replace with your actual image */
+  background-image: url('image.jpg'); /* Replace with your actual image */
   background-size: cover;
   background-position: center;
   height: 100vh;
