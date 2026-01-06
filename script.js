@@ -2,6 +2,7 @@
 const architectureProjects = [
     {
         id: 1,
+<<<<<<< HEAD
         title: "Designing with Scarcity",
         location: "Denmark",
         year: "2025",
@@ -12,16 +13,37 @@ const architectureProjects = [
             "assets/architecture/project1-2.png",
             "assets/architecture/project1-3.png",
             "assets/architecture/project1-4.png"
+=======
+        title: "Residential Villa",
+        location: "Copenhagen, Denmark",
+        year: "2024",
+        type: "Residential",
+        area: "450 m²",
+        description: "A modern villa designed with sustainable materials and integrated solar solutions. The design focuses on connecting indoor and outdoor spaces through large glass surfaces.",
+        images: [
+            "assets/architecture/project1-1.jpg",
+            "assets/architecture/project1-2.jpg",
+            "assets/architecture/project1-3.jpg"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
         ]
     },
     {
         id: 2,
+<<<<<<< HEAD
         title: "Writers Retreat",
         location: "Denmark",
         year: "2023",
         type: "Selfsuficient cabin",
         area: "2,300 m²",
         description: "The retreat, designed as a sustainable haven for writers, offers a compact cabin with a spacious work area and terrace, powered by photovoltaics for year-round comfort. It prioritizes minimal energy consumption. Designed to engage the senses and integrate with the landscape, it embodies sustainability and functionality, offering a serene retreat for creative inspiration.",
+=======
+        title: "Urban Office Complex",
+        location: "Stockholm, Sweden",
+        year: "2023",
+        type: "Commercial",
+        area: "2,300 m²",
+        description: "An adaptive reuse project transforming an industrial warehouse into a contemporary office space while preserving historical elements.",
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
         images: [
             "assets/architecture/project2-1.jpg",
             "assets/architecture/project2-2.jpg",
@@ -30,12 +52,21 @@ const architectureProjects = [
     },
     {
         id: 3,
+<<<<<<< HEAD
         title: "Museum Jorn",
         location: "Silkeborg, Denmark",
         year: "2023",
         type: "Large Hybrid Building",
         area: "1,100 m²",
         description: "The architectural concept, influenced by Jorn’s experimental art philosophy, challenges the conventional narrative of museum typology. This is achieved through a dynamic arrangement of walls within a static column grid, reinforced by monoliths to ensure structural stability.",
+=======
+        title: "Community Center",
+        location: "Oslo, Norway",
+        year: "2023",
+        type: "Public",
+        area: "1,100 m²",
+        description: "A flexible community space designed to foster social interaction through transparent facades and multifunctional areas.",
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
         images: [
             "assets/architecture/project3-1.jpg",
             "assets/architecture/project3-2.jpg",
@@ -44,6 +75,7 @@ const architectureProjects = [
     },
     {
         id: 4,
+<<<<<<< HEAD
         title: "Drivhusene",
         location: "Denmark",
         year: "2022",
@@ -54,10 +86,23 @@ const architectureProjects = [
             "assets/architecture/project4-1.png",
             "assets/architecture/project4-2.png",
             "assets/architecture/project4-3.png"
+=======
+        title: "Minimalist House",
+        location: "Helsinki, Finland",
+        year: "2022",
+        type: "Residential",
+        area: "280 m²",
+        description: "A compact residence emphasizing simplicity and connection to nature through carefully framed views and natural materials.",
+        images: [
+            "assets/architecture/project4-1.jpg",
+            "assets/architecture/project4-2.jpg",
+            "assets/architecture/project4-3.jpg"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
         ]
     },
     {
         id: 5,
+<<<<<<< HEAD
         title: "Reuse Pavilion",
         location: "Denmark",
         year: "2024",
@@ -70,10 +115,23 @@ const architectureProjects = [
             "assets/architecture/project5-3.png",
             "assets/architecture/project5-4.png",
             "assets/architecture/project5-5.png"
+=======
+        title: "Waterfront Pavilion",
+        location: "Aarhus, Denmark",
+        year: "2022",
+        type: "Public",
+        area: "180 m²",
+        description: "A lightweight structure along the harbor that serves as both a viewing platform and cultural venue.",
+        images: [
+            "assets/architecture/project5-1.jpg",
+            "assets/architecture/project5-2.jpg",
+            "assets/architecture/project5-3.jpg"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
         ]
     },
     {
         id: 6,
+<<<<<<< HEAD
         title: "Clay pavilion",
         location: "Denmark",
         year: "2021",
@@ -84,6 +142,18 @@ const architectureProjects = [
             "assets/architecture/project6-1.jpg",
             "assets/architecture/project6-2.jpg",
             "assets/architecture/project6-3.png"
+=======
+        title: "Mixed-Use Development",
+        location: "Gothenburg, Sweden",
+        year: "2021",
+        type: "Mixed-Use",
+        area: "4,500 m²",
+        description: "A sustainable urban development combining residential, retail, and public spaces with green roofs and rainwater harvesting systems.",
+        images: [
+            "assets/architecture/project6-1.jpg",
+            "assets/architecture/project6-2.jpg",
+            "assets/architecture/project6-3.jpg"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
         ]
     }
 ];
@@ -92,16 +162,26 @@ const photographyImages = [
     {
         id: 1,
         src: "assets/photography/photo1.jpg",
+<<<<<<< HEAD
         category: "landscape",
+=======
+        category: "architectural",
+        title: "Concrete Poetry"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     },
     {
         id: 2,
         src: "assets/photography/photo2.jpg",
         category: "landscape",
+<<<<<<< HEAD
+=======
+        title: "Nordic Light"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     },
     {
         id: 3,
         src: "assets/photography/photo3.jpg",
+<<<<<<< HEAD
         category: "landscape",
     },
     {
@@ -128,25 +208,73 @@ const photographyImages = [
         id: 8,
         src: "assets/photography/photo8.png",
         category: "lifestyle",
+=======
+        category: "urban",
+        title: "City Rhythm"
+    },
+    {
+        id: 4,
+        src: "assets/photography/photo4.jpg",
+        category: "interior",
+        title: "Soft Spaces"
+    },
+    {
+        id: 5,
+        src: "assets/photography/photo5.jpg",
+        category: "architectural",
+        title: "Geometric Forms"
+    },
+    {
+        id: 6,
+        src: "assets/photography/photo6.jpg",
+        category: "landscape",
+        title: "Horizon Line"
+    },
+    {
+        id: 7,
+        src: "assets/photography/photo7.jpg",
+        category: "urban",
+        title: "Street Perspective"
+    },
+    {
+        id: 8,
+        src: "assets/photography/photo8.jpg",
+        category: "interior",
+        title: "Natural Light"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     },
     {
         id: 9,
         src: "assets/photography/photo9.jpg",
         category: "architectural",
+<<<<<<< HEAD
+=======
+        title: "Modern Lines"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     },
     {
         id: 10,
         src: "assets/photography/photo10.jpg",
         category: "landscape",
+<<<<<<< HEAD
+=======
+        title: "Coastal View"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     },
     {
         id: 11,
         src: "assets/photography/photo11.jpg",
+<<<<<<< HEAD
         category: "landscape",
+=======
+        category: "urban",
+        title: "Urban Canvas"
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     },
     {
         id: 12,
         src: "assets/photography/photo12.jpg",
+<<<<<<< HEAD
         category: "landscape",
     },
     {
@@ -169,6 +297,11 @@ const photographyImages = [
         src: "assets/photography/photo16.jpg",
         category: "landscape",
     },
+=======
+        category: "interior",
+        title: "Minimal Living"
+    }
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
 ];
 
 // Navigation

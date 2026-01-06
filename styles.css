@@ -28,7 +28,11 @@
     --color-text: #1a1a1a;
     --color-accent: #8b6f47;
     --color-border: #e0e0e0;
+<<<<<<< HEAD
     --color-overlay: rgba(255, 255, 255, 0.9);
+=======
+    --color-overlay: rgba(0, 0, 0, 0.9);
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     
     --font-display: 'Neue Regrade', sans-serif;
     --font-body: 'Neue Regrade', sans-serif;
@@ -331,7 +335,11 @@ a {
 
 .project-card-image {
     width: 100%;
+<<<<<<< HEAD
     aspect-ratio: auto;
+=======
+    aspect-ratio: 4/3;
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     overflow: hidden;
     background-color: #f5f5f5;
 }
@@ -511,6 +519,7 @@ a {
     grid-row: 9;
 }
 
+<<<<<<< HEAD
 .photo-item:nth-child(13) {
     grid-column: 3 / 8;
 }
@@ -527,6 +536,8 @@ a {
     grid-column: 7 / 12;
 }
 
+=======
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
 .photo-item img {
     width: 100%;
     height: 100%;
@@ -672,7 +683,11 @@ a {
     height: 3rem;
     background: none;
     border: none;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
+=======
+    color: white;
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     font-size: 2.5rem;
     cursor: pointer;
     z-index: 2001;
@@ -688,7 +703,11 @@ a {
     display: grid;
     grid-template-columns: 2fr 1fr;
     min-height: 100vh;
+<<<<<<< HEAD
     color: rgb(0, 0, 0);
+=======
+    color: white;
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
 }
 
 .modal-gallery {
@@ -789,7 +808,11 @@ a {
     height: 3rem;
     background: none;
     border: none;
+<<<<<<< HEAD
     color: black;
+=======
+    color: white;
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     font-size: 2.5rem;
     cursor: pointer;
     z-index: 2001;
@@ -841,7 +864,11 @@ a {
     bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
+<<<<<<< HEAD
     color: black;
+=======
+    color: white;
+>>>>>>> 538015a751729bf580c98ad97f6b15a154628693
     font-size: 1rem;
     text-align: center;
     max-width: 600px;
