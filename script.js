@@ -1,4 +1,4 @@
-// Sample Data - Replace with your actual projects and photos
+// Arch. projects 
 const architectureProjects = [
     {
         id: 1,
@@ -207,11 +207,21 @@ function initNavigation() {
     
     sections.forEach(section => observer.observe(section));
     
-    // Smooth scroll
+    // Smooth scroll (but not for external links or PDFs)
     navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
+            const href = link.getAttribute('href');
+            
+            // Skip if it's a PDF, external link, or opens in new tab
+            if (href.includes('.pdf') || 
+                href.startsWith('http') || 
+                link.target === '_blank' ||
+                !href.startsWith('#')) {
+                return; // Let browser handle normally
+            }
+            
             e.preventDefault();
-            const targetId = link.getAttribute('href');
+            const targetId = href;
             document.querySelector(targetId).scrollIntoView({
                 behavior: 'smooth'
             });
@@ -492,20 +502,3 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
-
-// === FIX PORTFOLIO LINK ===
-(function() {
-    const portfolioLinks = document.querySelectorAll('a[href$=".pdf"]');
-    
-    portfolioLinks.forEach(link => {
-        // Remove any other click listeners
-        const newLink = link.cloneNode(true);
-        link.parentNode.replaceChild(newLink, link);
-        
-        // Add fresh handler that allows default behavior
-        newLink.addEventListener('click', function(e) {
-            e.stopImmediatePropagation();
-            // Browser will handle the link normally
-        }, true);
-    });
-})();
