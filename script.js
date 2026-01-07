@@ -8,10 +8,11 @@ const architectureProjects = [
         type: "Workflow",
         description: "Algorithmic Workflows for Structural Optimization Using Reclaimed Timber",
         images: [
-            "assets/architecture/project1-1.gif",
+            "assets/architecture/project1-1.png",
             "assets/architecture/project1-2.png",
             "assets/architecture/project1-3.png",
-            "assets/architecture/project1-4.png"
+            "assets/architecture/project1-4.gif",
+            "assets/architecture/project1-5.jpg"
         ]
     },
     {
@@ -83,7 +84,9 @@ const architectureProjects = [
         images: [
             "assets/architecture/project6-1.jpg",
             "assets/architecture/project6-2.jpg",
-            "assets/architecture/project6-3.png"
+            "assets/architecture/project6-3.png",
+            "assets/architecture/project6-4.gif",
+            "assets/architecture/project6-5.jpg"
         ]
     }
 ];
