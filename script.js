@@ -492,3 +492,20 @@ function debounce(func, wait) {
         timeout = setTimeout(later, wait);
     };
 }
+
+// === FIX PORTFOLIO LINK ===
+(function() {
+    const portfolioLinks = document.querySelectorAll('a[href$=".pdf"]');
+    
+    portfolioLinks.forEach(link => {
+        // Remove any other click listeners
+        const newLink = link.cloneNode(true);
+        link.parentNode.replaceChild(newLink, link);
+        
+        // Add fresh handler that allows default behavior
+        newLink.addEventListener('click', function(e) {
+            e.stopImmediatePropagation();
+            // Browser will handle the link normally
+        }, true);
+    });
+})();
