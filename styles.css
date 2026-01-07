@@ -577,6 +577,7 @@ a {
 .about-image {
     position: sticky;
     top: 8rem;
+    max-width: 400px; /* Limit maximum width */
 }
 
 .about-image img {
@@ -937,18 +938,19 @@ a {
         padding: 4rem 2rem;
     }
     
-    /* Single column on mobile */
+    /* Single column on mobile - use flexbox to prevent overlaps */
     .projects-grid,
     .photo-grid {
-        grid-template-columns: 1fr;
-        gap: 2rem;
-        row-gap: 3rem;
+        display: flex !important;
+        flex-direction: column;
+        gap: 3rem;
     }
     
     .project-card:nth-child(n),
     .photo-item:nth-child(n) {
-        grid-column: 1 / -1 !important;
-        grid-row: auto !important;
+        grid-column: unset !important;
+        grid-row: unset !important;
+        width: 100%;
     }
     
     .modal-gallery {
@@ -969,6 +971,51 @@ a {
     .gallery-nav.next,
     .lightbox-nav.next {
         right: 1rem;
+    }
+    
+    /* About section - ensure image doesn't stick */
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .about-image {
+        position: relative;
+        top: 0;
+        order: -1;
+        max-width: 300px; /* Smaller on mobile */
+        margin: 0 auto; /* Center it */
+    }
+    
+    .about-image img {
+        max-height: 350px; /* Reduced from 400px */
+        object-fit: cover;
+    }
+    
+    /* Modal content stacking */
+    .modal-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+    
+    .modal-info {
+        padding: 2rem;
+    }
+    
+    /* Hero adjustments */
+    .hero-title {
+        font-size: 3rem;
+    }
+    
+    /* Section spacing */
+    .section-title {
+        font-size: 2.5rem;
+    }
+    
+    /* Filter buttons wrap */
+    .photo-filters {
+        flex-wrap: wrap;
+        gap: 0.5rem;
     }
 }
 
