@@ -8,9 +8,9 @@ const architectureProjects = [
         type: "Workflow",
         description: "Algorithmic Workflows for Structural Optimization Using Reclaimed Timber",
         images: [
-            "assets/architecture/project1-1.png",
-            "assets/architecture/project1-2.png",
-            "assets/architecture/project1-3.png",
+            "assets/architecture/project1-1.jpg",
+            "assets/architecture/project1-2.jpg",
+            "assets/architecture/project1-3.jpg",
             "assets/architecture/project1-4.gif",
             "assets/architecture/project1-5.jpg"
         ]
@@ -52,9 +52,9 @@ const architectureProjects = [
         area: "280 m²",
         description: "The aim of the project is to develop a sustainable residential settlement on a roughly two-hectare plot located in Sorthøj, south of Aalborg, referred to as “Drivhusene.” This co-housing settlement, at a BP of 75%, seeks to fosters a sense of community among participants through low-density typologies and the integration of three common houses with varied functions. The settlement follows a 35-degree southwest tilted grid, providing a clear structure despite various displacements and height variations.",
         images: [
-            "assets/architecture/project4-1.png",
-            "assets/architecture/project4-2.png",
-            "assets/architecture/project4-3.png"
+            "assets/architecture/project4-1.jpg",
+            "assets/architecture/project4-2.jpg",
+            "assets/architecture/project4-3.jpg"
         ]
     },
     {
@@ -66,11 +66,11 @@ const architectureProjects = [
         area: "70 m²",
         description: "A lightweight structure along the harbor that serves as both a reading nook and cultural venue in front of the main library.",
         images: [
-            "assets/architecture/project5-1.png",
+            "assets/architecture/project5-1.jpg",
             "assets/architecture/project5-2.gif",
-            "assets/architecture/project5-3.png",
-            "assets/architecture/project5-4.png",
-            "assets/architecture/project5-5.png"
+            "assets/architecture/project5-3.jpg",
+            "assets/architecture/project5-4.jpg",
+            "assets/architecture/project5-5.jpg"
         ]
     },
     {
@@ -84,7 +84,7 @@ const architectureProjects = [
         images: [
             "assets/architecture/project6-1.jpg",
             "assets/architecture/project6-2.jpg",
-            "assets/architecture/project6-3.png",
+            "assets/architecture/project6-3.jpg",
             "assets/architecture/project6-4.gif",
             "assets/architecture/project6-5.jpg"
         ]
@@ -109,27 +109,27 @@ const photographyImages = [
     },
     {
         id: 4,
-        src: "assets/photography/photo4.png",
+        src: "assets/photography/photo4.jpg",
         category: "lifestyle",
     },
     {
         id: 5,
-        src: "assets/photography/photo5.png",
+        src: "assets/photography/photo5.jpg",
         category: "lifestyle",
     },
     {
         id: 6,
-        src: "assets/photography/photo6.png",
+        src: "assets/photography/photo6.jpg",
         category: "landscape",
     },
     {
         id: 7,
-        src: "assets/photography/photo7.png",
+        src: "assets/photography/photo7.jpg",
         category: "architectural",
     },
     {
         id: 8,
-        src: "assets/photography/photo8.png",
+        src: "assets/photography/photo8.jpg",
         category: "lifestyle",
     },
     {
