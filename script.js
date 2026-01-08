@@ -2,11 +2,11 @@
 const architectureProjects = [
     {
         id: 1,
-        title: "Designing with Scarcity",
+        title: "Designing with Scarcity: Algorithmic Workflows for Structural Optimization Using Reclaimed Timber",
         location: "Denmark",
         year: "2025",
-        type: "Workflow",
-        description: "Algorithmic Workflows for Structural Optimization Using Reclaimed Timber",
+        type: "Master thesis & Forthcoming paper",
+        description: "This Thesis/paper presents an algorithmic workflow that integrates reclaimed timber allocation into early-stage architectural design, seeking to transform material scarcity from a limitation into a generative design condition. The methodology combines structural analysis compliant with Eurocode 5, heuristic and meta-heuristic matching algorithms, and multi-objective optimization within a parametric design environment (Grasshopper, Karamba3D, Wallacei). The workflow evaluates structural members individually, assigning reclaimed elements based on volumetric utilization to minimize waste while maintaining structural performance and providing data visualization to its user. This research establishes a practical pathway for circular timber construction at scale, demonstrating that material scarcity, when computationally mediated, can become a driver of architectural innovation rather than a design constraint.",
         images: [
             "assets/architecture/project1-1.jpg",
             "assets/architecture/project1-2.jpg",
